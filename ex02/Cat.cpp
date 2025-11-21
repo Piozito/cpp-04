@@ -6,7 +6,7 @@
 /*   By: aaleixo- <aaleixo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 12:27:24 by aaleixo-          #+#    #+#             */
-/*   Updated: 2025/11/20 15:12:25 by aaleixo-         ###   ########.fr       */
+/*   Updated: 2025/11/21 14:05:50 by aaleixo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ Cat::Cat()
 Cat::Cat(const Cat &copy)
 {
 	std::cout << "Copy Cat constructor called" << std::endl;
+	this->_brain = new Brain();
 	*this = copy;
 }
 

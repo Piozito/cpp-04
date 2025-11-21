@@ -6,7 +6,7 @@
 /*   By: aaleixo- <aaleixo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 16:07:45 by aaleixo-          #+#    #+#             */
-/*   Updated: 2025/11/17 16:12:32 by aaleixo-         ###   ########.fr       */
+/*   Updated: 2025/11/21 14:03:55 by aaleixo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,6 @@ class WrongCat : public WrongAnimal
 		WrongCat(const WrongCat &copy);
 		~WrongCat();
 		WrongCat& operator=(WrongCat const& a);
-
-		void makeSound(void)const;
 };
 
 #endif

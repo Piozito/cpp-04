@@ -6,7 +6,7 @@
 /*   By: aaleixo- <aaleixo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 12:27:47 by aaleixo-          #+#    #+#             */
-/*   Updated: 2025/11/20 15:13:13 by aaleixo-         ###   ########.fr       */
+/*   Updated: 2025/11/21 14:05:25 by aaleixo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,21 +54,17 @@ int main()
 	std::cout << "\n====================" << std::endl;
 	std::cout << "====================\n" << std::endl;
 
-	Cat *b = new Cat();
+	Cat b = a;
 
-	b->setIdea("A");
-	b->setIdea("AA");
-	b->setIdea("AAA");
-	b->setIdea("AAAA");
+	b.setIdea("A");
+	b.setIdea("AA");
+	b.setIdea("AAA");
+	b.setIdea("AAAA");
 
 	std::cout << "\n====================\n" << std::endl;
-	b->getIdea();
+	b.getIdea();
 	std::cout << "\n====================\n" << std::endl;
 	a.getIdea();
-	std::cout << "\n====================\n" << std::endl;
-
-	delete b;
-	
 	std::cout << "\n====================" << std::endl;
 	std::cout << "====================\n" << std::endl;
 }
